@@ -1,0 +1,850 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 248, 255, 0.699);
+}
+
+/*header start */
+
+.checkb{
+    display: none;
+}
+.checkbtn{
+    display: none;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+header{
+    width: 100%;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+    
+}
+header .logo img{
+    width: 30px;
+    height: fit-content;
+}
+ nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 200px;
+}
+
+header .logo{
+    margin-left: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:40%;
+    transition: all 1s ease-in;
+}
+.logo:hover  p{
+    color: #000;
+}
+.logo:hover {
+    transform: translateX(-40px);
+}
+nav ul li{
+    padding: 0 10px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(116, 116, 116);
+    text-shadow: 2px 2px 30px  rgba(116, 116, 116, 0.384);
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+header .logo p{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    color: #fff;
+    transition: all 1s ease-in;
+}
+
+
+/* header end */
+
+
+
+/* first section start */
+
+
+.firstsection{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    
+}
+.firstsection .firsttext{
+    margin-top: 270px;
+    margin-left: 110px;
+    width: 600px;
+    
+}
+.firstsection .firsttext .firsth1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.firstsection .firsttext .firsth3{
+    text-transform: uppercase;
+    margin: 0;
+    color: rgba(20, 20, 20, 0.699);
+}
+.firstsection .firsttext .firstp{
+    font-size: 15px;
+    color: rgb(116, 126, 128);
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+.firstsection .firstimg{
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+}
+.firstsection .firstimg img{
+    width: 550px;
+    margin-top: 170px;
+    margin-right: 170px;
+}
+.secounda a, .firsta a{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to left, rgb(192, 192, 192), rgb(126, 126, 126));
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+.firsta a:hover{
+    box-shadow: 2px 2px 30px  rgb(116, 116, 116);
+}
+
+
+/* first section end*/
+
+
+
+/*secound section start*/
+
+
+.secoundsection{
+    margin-top: 200px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.secoundsection .secoundimg{
+    width: 60%;
+}
+.secoundsection .secoundtext{
+    width: 40%;
+}
+.secoundsection .secoundimg img{
+    margin-left: 300px;
+    width: 380px;
+}
+.secoundsection .secoundtext  p {
+    width: 400px;
+    color: rgb(116, 126, 128);
+    margin-bottom: 50px;
+}
+.secoundsection .secoundtext .secoundh4{
+    text-transform: uppercase;
+}
+.secoundsection .secoundtext .secoundh1{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.secounda a:hover{
+    box-shadow: 2px 2px 30px  rgba(116, 116, 116, 0.384);
+}
+
+
+/*secound section end*/
+
+
+
+/*third section start*/
+
+
+.thirdsection .thirdtext{
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.thirdsection .thirdboxarea .thirdbox{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    text-align: center;
+}
+.thirdsection .thirdboxarea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.thirdsection{
+    height: 820px;
+    width: 100%;
+    height: 750px;
+    
+}
+.thirdsection .thirdboxarea{
+    width: 75%;
+}
+.thirdsection .thirdboxarea .thirdbox p{
+    font-size: 15px;
+    color: rgb(116, 126, 128);
+}
+.thirdsection .thirdboxarea .thirdbox img{
+    width: 50px;
+}
+
+
+/*third section end*/
+
+
+
+/*forth section start*/
+
+
+.forthsection{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to right, rgb(185, 185, 185), rgb(116, 116, 116));
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.forthsection:hover{
+    background: linear-gradient(to right, rgb(116, 116, 116), rgb(185, 185, 185));
+}
+.forthboxarea h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: -10px;
+}
+.forthboxarea p{
+    color: #fff;
+    text-transform: capitalize;
+}
+.forthboxarea .forthbox{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+.forthboxarea{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*forth section end*/
+
+
+
+/*fifth section start*/
+
+.fifthsection{
+    width: 100%;
+    height: 950px;
+    margin-top: 170px;
+}
+.fifthsection .fifthtext{
+    width: 100%;
+    text-align: center;
+}
+.fifthsection .fifthtext h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+.fifthsection .fifthtext p{
+    color: rgba(0, 0, 0, 0.589);
+}
+.fifthsection .fifthtext .fifthnav{
+    margin-top: 100px;
+    margin-bottom: -20px;
+}
+.fifthsection .fifthtext .fifthnav ul{
+    list-style: none;
+}
+.fifthsection .fifthtext .fifthnav ul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.fifthsection .fifthtext .fifthnav ul a:hover{
+    border-bottom:solid 2px #000 ;
+}
+.fifthsection .fifthtext .fifthnav ul li{
+    display: inline;
+    margin: 20px;
+    color: #000;
+    font-weight: bold;
+}
+.fifthsection .fifthtext .fifthnav ul li a:hover{
+    color: rgb(114, 114, 114);
+    transition: all 0.3s ease-in-out;
+}
+.fifthsection .fifthboxarea{
+    width: 72%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.fifthsection .fifthboxarea .fifthbox{
+    width: 320px;
+    height: 320px;
+    margin-top: 70px;
+}
+.fifthsection .fifthboxarea .fifthbox:hover{
+    background:url(photography.png), linear-gradient(to right, rgb(185, 185, 185), rgb(116, 116, 116));
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.fifthsection .fifthboxarea .fifthbox:hover img{
+    opacity: 0.2;
+}
+.fifthsection .fifthboxarea .fifthbox img{
+    width: 320px;
+}
+
+
+/*fifth section end*/
+
+
+
+/*sixth section start*/
+
+
+.sixthsection{
+    height:850px ;
+    width: 100%;
+    margin-top:200px ;
+}
+.sixthsection .sixthtext{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.sixthsection .sixthtext p{
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 15px;
+}
+.sixthsection .sixthboxarea{
+    width: 70%;
+    height: 520px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sixthsection .sixthboxarea:hover{
+    background-color: #fff;
+}
+.sixthsection .sixthboxarea .sixthbox{
+    height:510px ;
+    width: 200px;
+    padding: 5px 10px;
+}
+.sixthsection .sixthboxarea .sixthbox .sixthbox1{
+    height: 160px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+.sixthsection .sixthboxarea .sixthbox .sixthbox1 .sixthbox1num{
+    height: 70px;
+    width: 70px;
+    border: rgb(224, 240, 253) solid 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 35px;
+}
+.sixthsection .sixthboxarea .sixthbox .sixthbox2{
+    width: 100%;
+}
+.sixthsection .sixthboxarea .sixthbox .sixthbox2 .sixthbox2text{
+    text-align: center;
+}
+.sixthsection .sixthboxarea .sixthbox .sixthbox2 .sixthbox2text p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.651);
+    line-height: 40px;
+    
+}
+.sixthsection .sixthboxarea .sixthbox .sixthbox2 .sixthbox2text h4{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.sixthsection .sixthboxarea .sixthbox:hover {
+    background: linear-gradient(to right, rgb(185, 185, 185), rgb(116, 116, 116));
+    height: 560px;
+    width: 240px;
+    color: #fff;
+}
+.sixthsection .sixthboxarea .sixthbox:hover .sixthbox2 .sixthbox2text p{
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 2px solid #fff;
+    
+}
+    
+
+.sixthsection .sixthboxarea .sixthbox .sixthbox2 .sixthbox2text .sixtha{
+    width: 200px;
+    height: 35px;
+    margin: 40px auto;
+    background-color: #fff;
+    display: none;
+
+} 
+.sixthsection .sixthboxarea .sixthbox .sixthbox2 .sixthbox2text .sixtha a{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding:20px ;
+    display: block;
+    line-height: 1px;
+}
+
+.sixthsection .sixthboxarea .sixthbox:hover .sixthbox2 .sixthbox2text .sixtha {
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: #fff;
+}
+.sixthsection .sixthboxarea .sixthbox:hover .sixthbox2 .sixthbox2text h1{
+    display: none;
+}
+.sixthsection .sixthboxarea .sixthbox:hover  .sixthbox1 .sixthbox1num{
+    border-color:rgba(240, 248, 255, 0.329);
+}
+
+
+/*sixth section end*/
+
+
+
+
+/*footer section start*/
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.993);
+    width: 100%;
+    height: 450px;
+}
+footer .footer{
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer .footeraboutme, .footernewsletter, .footerfollowme{
+    margin-top: 100px;
+}
+.footer div h1{
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer div p{
+    color: rgb(150, 150, 150);
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+footer .footer .footeraboutme{
+    width: 420px;
+    height: fit-content;
+}
+footer .footer .footernewsletter{
+    width: 450px;
+    height: fit-content;
+}
+footer .footer .footernewsletter .footerform .footerforma{
+    background-color: rgb(116, 116, 116);
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ 
+footer .footer .footernewsletter .footerform input{
+    padding: 15px 15px;
+    padding-right: 130px;
+    border: none;
+    outline: none;
+    width: 250px;
+}
+footer .footer .footernewsletter .footerforma a img{
+    width: 25px;
+
+}
+
+footer .footer .footernewsletter .footerform {
+    display: flex;
+    justify-content: flex-start;
+}
+footer .footer .footerfollowme{
+    width: 200px;
+    height: fit-content;
+}
+footer .footer .footeraboutme p span{
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+}
+footer .footer .footerfollowme .footericon a img{
+    width: 20px;
+    margin: 10px 5px;
+    background-color: #fff;
+}
+
+
+/*footer section end*/
+
+
+
+/*responsive section start*/
+
+
+        /*header responsive section start*/
+
+@media(max-width:940px){
+    .checkbtn{
+        display: block;
+    }
+    nav form ul{
+        position: fixed;
+        top: 50px;
+        left: -50%;
+        background-color: rgb(255, 255, 255);
+        height: 40vh;
+        width: 140px;
+        display: block;
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+    nav form ul li{
+        padding: 20px 30px;
+    }
+    nav form ul li:nth-child(1){
+        margin-bottom: -15px;
+    }
+    .checkb:checked ~ ul{
+        left: 0%; 
+        font-weight: bold;
+    }
+
+        /*header responsive section end*/
+
+
+        /* first responsive section start*/
+
+    .firstsection{
+        display: block;
+    }
+    
+    .firstsection .firstimg img{
+        width: 80%;
+    }
+    .firstsection .firstimg{
+        margin-left: 20%;
+        margin-top: -10%;
+    }
+    .firstsection .firsttext{
+        margin-top: 120px;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: -10%;
+        width: 65%;
+    }
+    
+        /*first responsive section end*/
+
+
+
+
+        /*secound responsive section start*/
+
+    .secoundsection{
+        display: flex;
+        flex-wrap:wrap-reverse ;
+        margin-top: 200px;
+    }
+    .secoundsection .secoundimg{
+       margin-top: 50px;
+    }
+    .secoundsection .secoundtext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+    }
+    .secoundsection .secoundtext p{
+        width: 85%;
+        text-align: center;
+    }
+    .secoundsection .secoundimg img{
+        width: 75%;
+        margin-left:50% ;
+    }
+
+        /*secound responsive section end*/
+
+
+
+
+        /*third responsive section start*/
+
+    .thirdsection{
+        margin-top: 200px;
+    }
+    .thirdsection .thirdboxarea{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+        /*third responsive section end*/
+
+
+
+
+        /*forth responsive section start*/
+
+    .forthsection{
+        margin-top: 400px;
+    }
+    .forthsection .forthboxarea{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .forthsection .forthboxarea .forthbox{
+        width: 200px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+        /*forth responsive section end*/
+
+
+
+        /*fifth responsive section start*/
+
+    .fifthsection .fifthboxarea{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+        /*fifth responsive section end*/
+
+
+
+        /*sixth responsive section start*/
+
+    .sixthsection{
+        margin-top: 550px;
+        width: 100%;
+    }
+    .sixthsection .sixthboxarea{
+        width:80%;
+        height: 1100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .sixthsection .sixthboxarea .sixthbox{
+        margin-top:10px ;
+        
+    }
+
+         /*sixth responsive section start*/
+
+
+
+
+         /*footer responsive section start*/ 
+
+        footer .footer{
+            display: block;
+            height:fit-content;
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+            overflow: hidden;
+        }
+        footer{
+            width: 100%;
+            height: fit-content;
+            margin-top: 500px;
+        }
+
+         /*footer responsive section end*/
+}
+
+/*responsive section end*/
+
+
+/*responsive for other device*/
+
+@media(max-width:905px){
+    .sixthsection{
+        margin-top:1800px;
+    }
+    
+}
+
+@media(max-width:816px){
+    .forthsection{
+        margin-top: 1250px;
+    }
+}
+
+@media(max-width:614px){
+    .firstsection .firsttext .firsth1{
+        font-size: 30px;
+    }
+
+    .firstsection .firsttext{
+        width: 75%;
+        margin-left:30px;
+    }
+    .sixthsection .sixthtext{
+        width: 85%;
+        margin: auto;
+    }
+}
+
+@media(max-width:616px){
+    .sixthsection .sixthboxarea .sixthbox{
+       padding-bottom: 0;
+    }
+    .sixthsection .sixthboxarea .sixthbox:hover{
+        width: 200px;
+        height: 580px;
+    }
+}
+@media(max-width:566px){
+    footer{
+        margin-top: 1600px;
+    }
+    .sixthsection .sixthboxarea{
+        height: 2230px;
+    }
+    footer .footer .footernewsletter .footerform input{
+        width: 170px;
+        height: 10px;
+    }
+    footer .footer .footernewsletter .footerform .footerforma{
+        width: 40px;
+        height: 40px;
+    }
+    .secoundsection{
+        margin-top: 90px;
+    }
+}
+
+@media(max-width:520px){
+    .footer div{
+        max-width: fit-content;
+        height: fit-content;
+    }
+    .footer  div p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fifthsection .fifthtext h1{
+        font-size: 30px;
+    }
+    .firstsection .firstimg img{
+        width: 85%;
+    }
+    .secoundsection .secoundimg img{
+        width: 95%;
+    }
+    footer .footer .footernewsletter .footerform input{
+        width: 130px;
+        height: 0;
+    }
+    footer .footer .footernewsletter .footerform .footerforma{
+        width: 30px;
+        height: 30px;
+    }
+    footer .footer .footernewsletter .footerform .footerforma img{
+        width: 20px;
+        padding: 0 10px;
+    }
+}
+
+@media(max-width:500px){
+    .secoundsection .secoundimg img{
+        width: 90%;
+        margin-left:35% ;
+    }
+    .secoundsection{
+        margin-bottom: -80px;
+    }
+    header .logo{
+        width: 60%;
+    }
+    .fifthsection .fifthtext h1{
+        font-size: 25px;
+    }
+    .firsttext{
+        width: 80%;
+        overflow: hidden;
+        margin: auto;
+    }
+}
+
