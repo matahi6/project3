@@ -844,3 +844,10 @@ footer .footer .footerfollowme .footericon a img{
     
 }
 
+@media(max-width:416px){
+    .forthsection{
+        height: fit-content;
+        padding: 10px 0;
+    }
+}
+
