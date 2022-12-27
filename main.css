@@ -841,10 +841,8 @@ footer .footer .footerfollowme .footericon a img{
     .fifthsection .fifthtext h1{
         font-size: 25px;
     }
-    .firsttext{
+    .fifthtext{
         width: 80%;
-        overflow: hidden;
-        margin: auto;
     }
 }
 
