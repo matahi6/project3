@@ -268,6 +268,62 @@ header .logo p{
 
 /*fifth section start*/
 
+
+.fifthnavslider{
+    width: 80%;
+    margin:50px auto;
+    border-radius: 10px;
+    display: none;
+}
+.fifthsection .fifthtext .fifthnavslider form ul{
+    list-style: none;
+}
+.fifthsection .fifthtext .fifthnavslider form ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.fifthnavslider{
+    background: linear-gradient(to right, rgb(116, 116, 116), rgb(185, 185, 185));
+}
+.fifthnavslider form ul li {
+    padding-bottom: 15px;
+}
+.fifthnavslider form #check2{
+    display: none;
+}
+.fifthnavslider form ul li a{
+    font-weight: bold;
+}
+.fifthnavslider form .checkbtn2 img{
+    width: 20px;
+    transform: rotate(90deg);
+}
+.fifthnavslider form .checkbtn2 {
+    float: right;
+    margin-top: 10px ;
+    margin-right: 20px;
+}
+.fifthnavslider form p{
+    padding:10px ;
+    font-weight: bold;
+}
+.fifthnavslider form p a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.fifthnavslider form ul{
+    margin-left: -70px;
+    display: none;
+    margin-top: -10px;
+    transition: all 0.2s ease;
+}
+#check2:checked ~ ul{
+    display: block;
+}
+#check2:checked ~ .checkbtn2 img{
+    transform: rotate(-90deg);
+}
+
 .fifthsection{
     width: 100%;
     height: 950px;
@@ -509,10 +565,10 @@ footer .footer .footernewsletter .footerform .footerforma{
  
 footer .footer .footernewsletter .footerform input{
     padding: 15px 15px;
-    padding-right: 130px;
+    padding-right: 50px;
     border: none;
     outline: none;
-    width: 250px;
+    width: 330px;
 }
 footer .footer .footernewsletter .footerforma a img{
     width: 25px;
@@ -554,7 +610,7 @@ footer .footer .footerfollowme .footericon a img{
     nav form ul{
         position: fixed;
         top: 50px;
-        left: -50%;
+        left: -80%;
         background-color: rgb(255, 255, 255);
         height: 40vh;
         width: 140px;
@@ -783,7 +839,7 @@ footer .footer .footerfollowme .footericon a img{
         height: 2230px;
     }
     footer .footer .footernewsletter .footerform input{
-        width: 170px;
+        width: 250px;
         height: 10px;
     }
     footer .footer .footernewsletter .footerform .footerforma{
@@ -814,7 +870,7 @@ footer .footer .footerfollowme .footericon a img{
         width: 95%;
     }
     footer .footer .footernewsletter .footerform input{
-        width: 130px;
+        width: 180px;
         height: 0;
     }
     footer .footer .footernewsletter .footerform .footerforma{
@@ -850,4 +906,45 @@ footer .footer .footerfollowme .footericon a img{
         padding: 10px 0;
     }
 }
-
+@media(max-width:400px){
+    .fifthnavslider{
+        display: block;
+    }
+    .fifthnav{
+        display: none;
+    }
+}
+@media(max-width:365px){
+    .fifthsection .fifthtext{
+        width: 85%;
+        margin: auto;
+    }
+    
+    .fifthsection .fifthtext .fifthnav ul li a{
+        margin: 0px;
+        padding: 0px;
+    }
+    .secoundsection .secoundtext .secoundh1{
+        font-size: 25px;
+    }
+    .firstsection .firsttext{
+        margin-bottom: -100px;
+    }
+    .firstsection{
+        margin-bottom:-90px;
+    }
+    .footer .footernewsletter .footerform form input{
+        width: 150px;
+    }
+    .fifthsection .fifthboxarea .fifthbox img{
+        width: 270px;
+        height: fit-content;
+    }
+    .fifthsection .fifthboxarea .fifthbox{
+        width: fit-content;
+        height: fit-content;
+    }
+    .fifthsection{
+        margin-bottom: -220px;
+    }
+}
